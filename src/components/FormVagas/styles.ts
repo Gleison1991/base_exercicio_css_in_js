@@ -20,5 +20,5 @@ export const Pesquisar = styled.form`
 `
 export const Campo = styled.form`
   padding: 0 16px;
-  outline-color: #a7727d ; cor princ
+  outline-color: #a7727d;
 `

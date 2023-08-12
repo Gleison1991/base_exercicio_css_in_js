@@ -22,12 +22,13 @@ const FormVagas = ({ aoPesquisar }: Props) => {
         className={styles.campo}
         placeholder="Front-end, fullstack, node, design"
         onChange={(e) => setTermo(e.target.value)}
-        type="search">
-      </Campo>
+        type="search"
+      />
       <Pesquisar className={styles.btnPesquisar} type="submit">
         Pesquisar
       </Pesquisar>
     </FormularioVagas>
   )
 }
+
 export default FormVagas

@@ -8,7 +8,7 @@ export const FormularioVagas = styled.form`
   border-radius: 12px;
   margin-top: 40px;
 `
-export const Pesquisar = styled.form`
+export const Pesquisar = styled.button`
   background-color: #a7727d;
   border: 1px solid #f9f5e7;
   height: 40px;
@@ -18,7 +18,7 @@ export const Pesquisar = styled.form`
   margin-left: 8px;
   cursor: pointer;
 `
-export const Campo = styled.form`
+export const Campo = styled.input`
   padding: 0 16px;
   outline-color: #a7727d;
 `
